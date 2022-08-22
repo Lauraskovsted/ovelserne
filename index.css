@@ -1,0 +1,20 @@
+/* Nulstiller alle typografier, så jeg kan lave alt selv */
+* {
+  all: unset;
+  display: revert;
+  cursor: revert;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  align-self: stretch;
+  object-fit: cover;
+}
+
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  background-color: antiquewhite;
+}
