@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+  <script>
+    let time = new Date().getHours();
+
+    if (time >= 5 && time <= 10) {
+      console.log("Godmorgen");
+    } else if (time >= 10 && time <= 18) {
+      console.log("Goddag");
+    } else if (time >= 18 && time <= 24) {
+      console.log("Godaften");
+    } else {
+      console.log("Godnat");
+    }
+  </script>
+</html>
